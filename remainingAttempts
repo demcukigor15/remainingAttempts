@@ -1,0 +1,4 @@
+ } else {
+   remainingAttempts := attempts - attempt
+   if remainingAttempts > 0 {
+    fmt.Println("Incorrect. You have", remainingAttempts, "attempts left.")
